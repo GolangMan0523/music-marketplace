@@ -1,0 +1,60 @@
+@import '../../common/resources/client/common.css';
+@import "web-player/playable-item/content-grid.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.player-overlay-bg {
+  background-image: linear-gradient(theme('colors.background'), theme('colors.background-alt') 85%);
+}
+
+.content-carousel {
+  grid-auto-columns: calc(
+    (100% - (var(--nVisibleItems) - 1) * 24px) / var(--nVisibleItems)
+  );
+}
+
+@media (min-width: 1200px) {
+  .web-player-container {
+    max-width: 954px;
+  }
+}
+@media (min-width: 1310px) {
+  .web-player-container {
+    max-width: 1086px;
+  }
+}
+@media (min-width: 1430px) {
+  .web-player-container {
+    max-width: 1206px;
+  }
+}
+@media (min-width: 1728px) {
+  .web-player-container {
+    max-width: 1504px;
+  }
+}
+
+.landing-container {
+  @apply px-24 mx-auto relative;
+}
+
+@media screen and (min-width: 768px) {
+  .landing-container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .landing-container {
+    max-width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .landing-container {
+    max-width: 1170px;
+  }
+}
+

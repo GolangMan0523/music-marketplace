@@ -1,0 +1,20 @@
+{
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.enablePreview": false,
+  "sftp.debug": true,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.foldingMaximumRegions": 65000,
+  "editor.codeActionsOnSave": {}
+}

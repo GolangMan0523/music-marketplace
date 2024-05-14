@@ -1,0 +1,66 @@
+
+DATABASE TABLES & RECORDS:
+
+Records:                    Tables: (61 DB TABLES)
+
+1                           active_sessions
+0                           albums
+0                           artists
+0                           artist_album
+0                           artist_bios
+0                           artist_track
+0                           backstage_requests
+0                           bans
+0                           billing_plans
+7                           channelables
+9                           channels
+0                           comments
+0                           comment_reports
+0                           comment_votes
+2                           css_themes
+0                           csv_exports
+0                           custom_domains
+3                           custom_pages
+0                           failed_jobs
+0                           file_entries
+0                           file_entry_models
+0                           follows
+0                           genreables
+0                           genres
+0                           invoices
+0                           jobs
+0                           likes
+1                           localizations
+0                           lyrics
+207                         migrations
+0                           notifications
+0                           notification_subscriptions
+0                           password_resets
+32                          permissionables
+90                          permissions
+0                           personal_access_tokens
+0                           playlists
+0                           playlist_track
+0                           playlist_user
+3                           prices
+2                           products
+0                           profile_images
+0                           profile_links
+0                           reposts
+3                           roles
+58                          settings
+0                           similar_artists
+0                           social_profiles
+0                           subscriptions
+0                           taggables
+0                           tags
+0                           tracks
+0                           track_plays
+1                           users
+0                           users_oauth
+0                           user_artist
+0                           user_profiles
+0                           user_role
+0                           workspaces
+0                           workspace_invites
+0                           workspace_user

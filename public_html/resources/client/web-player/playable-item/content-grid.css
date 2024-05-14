@@ -1,0 +1,53 @@
+.content-grid {
+  --nVisibleItems: 1;
+}
+
+@media (min-width: 280px) {
+  .content-grid {
+    --nVisibleItems: 2;
+  }
+}
+
+@media (min-width: 786px) {
+  .content-grid {
+    --nVisibleItems: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-grid {
+    --nVisibleItems: 4;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content-grid {
+    --nVisibleItems: 5;
+  }
+}
+
+@container (min-width: 300px) {
+  .content-grid {
+    --nVisibleItems: 2;
+  }
+}
+
+@container (min-width: 600px) {
+  .content-grid {
+    --nVisibleItems: 3;
+  }
+}
+
+
+@container (min-width: 900px) {
+  .content-grid {
+    --nVisibleItems: 4;
+  }
+}
+
+@container (min-width: 1200px) {
+  .content-grid {
+    --nVisibleItems: 5;
+  }
+}
+

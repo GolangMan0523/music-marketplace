@@ -1,0 +1,33 @@
+
+INSTALLATION GUIDE FOR OUR DEVELOPERS:
+
+* clone our repository (default branch called "main")
+
+* make copy of this files and rename them without ".example" at the end
+/public_html/vite.config.ts.example
+/public_html/.htaccess.example
+/public_html/public/.htaccess.example
+
+* make copy of this folder and rename it without ".example" at the end
+/public_html/public/install_files
+
+* unzip the zip folders you needed.
+/public_html/storage/app/geoip.mmdb.zip
+
+Laravel:
+* run "composer update" in visual code
+* after install all dependencies run "php artisan key:generate" in visual code
+* now you can open website locally with your hosted URL
+* follow the install process
+
+React:
+* run "npm install" and install node files
+* change "host" and "hmr" in vite.config.ts to your local domain URL
+* run "npm run dev"
+* do changes what we needed
+* after done run "npm run build"
+
+Thats it!
+
+
+

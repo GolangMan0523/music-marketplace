@@ -1,0 +1,20 @@
+
+# ROOT DOMAIN DIRECTORY
+/backup_html
+/cgi-bin
+/content_html
+/default_html
+/deil_html
+/dev_html
+/document_errors
+/logs
+/private
+/project_html
+/stats
+/source_html
+/test_html
+/updates_html
+
+# SOFTWARE FILES
+/.vscode/ftp-sync.json
+/.vscode/sftp.json

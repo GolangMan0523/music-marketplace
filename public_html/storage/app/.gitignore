@@ -1,0 +1,6 @@
+*
+!public/
+!chunks/
+!.gitignore
+!geoip.mmdb.zip
+geoip.mmdb
